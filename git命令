@@ -1,3 +1,4 @@
+# 本地操作
 git add
 git add .
 git commit -m ""
@@ -26,3 +27,7 @@ git push origin master
 -f 表示强制覆盖
 --set-upstream 推送到远端的同时并且建立起和远端分支的关联关系。
 git push --set-upstream origin master
+
+如果当前分支已经和远端分支关联，则可以省略分支名和远端名。
+原本： git push origin master
+现在：git push 将master分支推送到已关联的远端分支。
