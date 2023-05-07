@@ -10,6 +10,8 @@ git branch branch_name
 git checkout branch_name
 git checkout -b branch_name
 git merge
+git branch -d branch_name
+git branch -D branch_name
 
 # 常见的branch 名
 # master develop
