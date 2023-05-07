@@ -1,0 +1,17 @@
+git add
+git add .
+git commit -m ""
+git-log
+git reflog
+git reset --hard commitID
+
+git branch
+git branch branch_name
+git checkout branch_name
+git checkout -b branch_name
+git merge
+
+# 常见的branch 名
+# master develop
+# feature hotfix
+# test pre
