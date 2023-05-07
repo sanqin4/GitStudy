@@ -17,3 +17,7 @@ git branch -D branch_name
 # master develop
 # feature hotfix
 # test pre
+
+git remote add <远端名称> <远端仓库路径>
+git remote
+git push [-f] [--set-upstream] [远端名称 [本地分支名][:远端分支名] ]
