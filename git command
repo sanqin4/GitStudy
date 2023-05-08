@@ -31,3 +31,10 @@ git push --set-upstream origin master
 如果当前分支已经和远端分支关联，则可以省略分支名和远端名。
 原本： git push origin master
 现在：git push 将master分支推送到已关联的远端分支。
+
+git clone <仓库路径>
+
+git fetch remote_name branch_name
+
+git pull = git fetch + git merge
+
